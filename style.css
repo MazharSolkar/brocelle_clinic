@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #14268C;
+    color: #AAB3CF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+@media (min-width: 500px) {
+    .navbar-brand img {
+        width: 270px;
+    }
+}
+
+.navbar-toggler {
+    border-color: white !important;
+    background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1d552 !important;
+}
+
+.convey-ideas {
+    font-weight: 600;
+    font-size: 42px;
+    color: #f1d552;
+}
+
+.ideas-to-us {
+    font-weight: 600;
+    font-size: 42px;
+    color: white;
+}
+
+.get-in-touch {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #AAB3CF;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btn {
+    color: black;
+    background: #f1d552;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #d4b841;
+    color: black;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #f1d552;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.icon-circle i {
+    color: rgba(20,38,140,255);
+    background-color: #f1d552;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
